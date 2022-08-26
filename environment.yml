@@ -1,15 +1,13 @@
-name: EDA
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - seaborn
-  - warnings
+  - python=3.7
+  - nodejs=16
+  - pip
+  - ipywidgets==7.7.0
+  - jupyter-offlinenotebook==0.2.2
+  - jupyter-resource-usage==0.6.1
+  - jupyterlab==3.3.3
+  - jupyterhub-singleuser==1.5.0
+  - notebook==6.4.10
+  - nteract_on_jupyter==2.1.3
