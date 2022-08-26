@@ -13,5 +13,3 @@ dependencies:
   - dask
   - seaborn
   - warnings
-conda activate EDA-environment
-conda env export --from-history -f environment.yml
