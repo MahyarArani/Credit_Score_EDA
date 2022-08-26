@@ -1,4 +1,4 @@
-name: EDA-environment
+name: EDA
 channels:
   - conda-forge
 dependencies:
