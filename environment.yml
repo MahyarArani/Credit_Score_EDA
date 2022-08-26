@@ -3,9 +3,5 @@ channels:
 dependencies:
   - python
   - numpy
-  - pip
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+  - pandas
+  - matplotlib
