@@ -1,4 +1,4 @@
-name: example-environment
+name: EDA-environment
 channels:
   - conda-forge
 dependencies:
@@ -12,4 +12,6 @@ dependencies:
   - bokeh
   - dask
   - seaborn
-  -warnings
+  - warnings
+conda activate EDA-environment
+conda env export --from-history -f environment.yml
